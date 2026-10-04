@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links-->
+    <link rel="shortcut icon" href="../img/5aicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../src/style.css">
+
+    <!--JS-->
+    <script src="../src/script.js"></script>
+
+    <title>Class 5A</title>
+</head>
+<body id="#">
+    <header id="header">
+        <a href="#">5A</a>
+        <button id="sideopener" onclick="opennav()"><i class="fa fa-bars"></i></button>
+    </header>
+
+    <br><br>
+
+    <main id="main">
+        <h1 id="home">Home</h1>
+        <h3>Selamat Datang! Ini adalah Website Kelas 5A Ciganjur 01.</h3>
+        <h3>Jika ingin melihat Tentang kelas kami atau Kontak, Tekan tombol di kanan atas dan pilih.</h3>
+    </main>
+
+    <footer id="footer">
+        <h6>&copy; 2026 Arkans. All rights reversed. This is Unofficial school website.</h6>
+    </footer>
+
+    <div id="sidebar">
+        <button id="sidecloser" onclick="closenav()"><i class="fa fa-close"></i></button>
+        <h3>Navigation</h3>
+        <nav>
+            <a href="#home" onclick="home()">Home</a>
+            <a href="#about" onclick="about()">About</a>
+            <a href="#contact" onclick="contact()">Contact</a>
+        </nav>
+        <br>
+        <h3>Setting</h3>
+        <button id="settingbtn" onclick="thememode()">Theme</button>
+    </div>
+</body>
+</html>

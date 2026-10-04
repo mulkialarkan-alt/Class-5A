@@ -1,0 +1,126 @@
+body {
+    background: white;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    box-shadow: inset 0 0 100px #555555;
+    position: fixed;
+    padding: 5px 0;
+    top: 0;
+    left: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    position: fixed;
+    left: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: #909090;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#sideopener{
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+}
+
+#sideopener:hover{
+    color: #d0d0d0;
+}
+
+#sidecloser {
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 48px;
+    left: 5px;
+    cursor: pointer;
+}
+
+#sidebar {
+    width: 0;
+    height: 100%;
+    background: #909090;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+    box-shadow: -5px 0 50px gray;
+}
+
+#sidebar nav a{
+    font-size: 2rem;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+#sidebar nav a:hover{
+    background-color: #aaa;
+}
+
+#sidebar h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    overflow-x: hidden;
+}
+
+#line {
+    background-color: #d0d0d0;
+    padding: 2px 100%;
+    position: fixed;
+}
+
+#settingbtn{
+    font-size: 30px;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#settingbtn:hover{
+    background: #aaa;
+}
+
+@media screen and (max-height: 450px) {
+    #sidebar {padding-top: 15px;}
+    #sidebar a {font-size: 18px;}
+}
